@@ -2,7 +2,7 @@
 #include <actionlib/server/action_server.h>
 #include <pthread.h>
 
-#include <moveit_msgs/MultiDOFJointTrajectory.h>
+#include <trajectory_msgs/MultiDOFJointTrajectory.h>
 #include <action_controller/MultiDofFollowJointTrajectoryAction.h>
 #include <geometry_msgs/Twist.h>
 
@@ -42,7 +42,7 @@ private:
 
 	bool has_active_goal_;
 	GoalHandle active_goal_;
-	moveit_msgs::MultiDOFJointTrajectory_<std::allocator<void> > toExecute;
+	trajectory_msgs::MultiDOFJointTrajectory_<std::allocator<void> > toExecute;
 
 	void cancelCB(GoalHandle gh){
 		if (active_goal_ == gh)

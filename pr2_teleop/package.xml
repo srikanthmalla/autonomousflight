@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>pr2_teleop</name>
+  <version>0.0.0</version>
+  <description>
+  This package contains launch files for starting joystick or
+  keyboard-based teleoperation (remote control) of the PR2.
+  </description>
+  <author email="unknown@unknown.com">Alessio</author>
+  <maintainer email="unknown@unknown.com">Alessio</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/pr2_teleop</url>
+	<buildtool_depend>catkin</buildtool_depend> 
+	<run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>pr2_controllers_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>topic_tools</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>tf</run_depend>
+</package>
