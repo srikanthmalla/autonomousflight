@@ -1,2 +1,0 @@
-- setup-file:
-    local-name: /opt/ros/groovy/stacks/pr2_apps/pr2_teleop/build/devel/setup.sh

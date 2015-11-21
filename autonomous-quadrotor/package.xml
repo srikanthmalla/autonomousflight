@@ -1,0 +1,18 @@
+<package>
+  <name>autonomous_quadrotor</name>
+  <version>0.1.0</version>
+  <maintainer email="unknown@unknown.com">Alessio</maintainer>
+  <description>
+
+     action_controller
+
+  </description>
+  <author>Alessio</author>
+  <author>Wim</author>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/autonomous_quadrotor</url>
+	<buildtool_depend>catkin</buildtool_depend> 
+	
+</package>
+
+
