@@ -15,6 +15,7 @@ find_package(catkin COMPONENTS
   actionlib
   roscpp
   control_msgs
+  action_controller
   REQUIRED)
 
 include_directories(${catkin_INCLUDE_DIRS})
